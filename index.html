@@ -1,0 +1,57 @@
+---
+layout: default
+title: How-To Guides
+---
+
+<section class="hero">
+  <div class="hero-media" aria-hidden="true"></div>
+  <div class="hero-content">
+    <p class="eyebrow">Aurora field manual</p>
+    <h1>Practical how-to guides for lean ecommerce systems.</h1>
+    <p>Step-by-step technical notes for SaaS tools, automation workflows, ecommerce operations, AI systems, and the product decisions behind faster execution.</p>
+    <a class="hero-link" href="https://the-lean-ecommerce.com">Explore The Lean Ecommerce</a>
+  </div>
+</section>
+
+<div class="section-kicker">
+  <span>Latest guides</span>
+  <span>30 per page</span>
+</div>
+
+<section class="post-list" aria-label="Latest how-to posts">
+  {% assign posts = paginator.posts | default: site.posts %}
+  {% if posts.size > 0 %}
+    {% for post in posts %}
+      <article class="post-card">
+        <p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
+        <h2>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
+
+        {% if post.description %}
+          <p>{{ post.description }}</p>
+        {% endif %}
+      </article>
+    {% endfor %}
+  {% else %}
+    <article class="empty-state">
+      <p class="eyebrow">No guides published yet</p>
+      <h2>The first how-to is still charging in the aurora.</h2>
+      <p>New technical walkthroughs will appear here as Markdown posts are published through the automated pipeline.</p>
+    </article>
+  {% endif %}
+</section>
+
+{% if paginator.total_pages > 1 %}
+  <nav class="pagination" aria-label="Pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}">Newer guides</a>
+    {% endif %}
+
+    <span>Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}">Older guides</a>
+    {% endif %}
+  </nav>
+{% endif %}
