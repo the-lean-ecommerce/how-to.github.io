@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://the-lean-ecommerce.github.io/how-to.github.io/sitemap.xml
+Sitemap: https://how-to.the-lean-ecommerce.com/sitemap.xml

@@ -8,7 +8,7 @@ The blog is built for founders, marketers, agencies, product teams, and solo ope
 
 Read the how-to blog at:
 
-https://the-lean-ecommerce.github.io/how-to.github.io/
+https://how-to.the-lean-ecommerce.com/
 
 Related project:
 
