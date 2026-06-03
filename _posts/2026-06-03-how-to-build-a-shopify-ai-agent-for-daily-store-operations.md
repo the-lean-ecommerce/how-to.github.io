@@ -2,7 +2,7 @@
 layout: post
 title: "How to Build a Shopify AI Agent for Daily Store Operations"
 description: "A practical guide to setting up a scoped Shopify AI agent for reporting, alerts, product cleanup, and support drafts with Clawly."
-date: 2026-06-03 02:43:11 +0000
+date: 2026-06-03 02:47:45 +0000
 categories: [how-to]
 tags: [shopify, ai-automation, store-operations, support, reporting, clawly]
 canonical_url: ""
@@ -126,7 +126,7 @@ The sequence I would trust is:
 
 That order keeps the assistant useful while preserving control. It also makes it easier to see where the workflow breaks if something goes wrong.
 
-If your team is building multiple content or ops flows, [How to Build a Product-Aware Shopify Blog Workflow](https://the-lean-ecommerce.gitlab.io/2026/05/25/how-to-build-a-shopify-blog-workflow-that-keeps-product-detail-intact/) and [How I Review AI-Generated Shopify Blog Posts Before Publishing](https://the-lean-ecommerce.gitlab.io/2026/05/26/how-i-review-ai-generated-shopify-blog-posts-before-publishing/) are good models for that same staged rollout: define the handoff, review the output, then widen the scope.
+If your team is building multiple content or ops flows, [How to Build a Product-Aware Shopify Blog Workflow](https://the-lean-ecommerce.gitlab.io/2026/05/24/how-to-build-a-product-aware-shopify-blog-workflow/) and [How I Review AI-Generated Shopify Blog Posts Before Publishing](https://how-to-blog.gitlab.io/2026/05/26/how-i-review-ai-generated-shopify-blog-posts-before-publishing/) are good models for that same staged rollout: define the handoff, review the output, then widen the scope.
 
 ## Bottom Line
 
