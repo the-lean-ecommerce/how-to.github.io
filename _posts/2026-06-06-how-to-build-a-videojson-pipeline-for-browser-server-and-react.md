@@ -50,7 +50,7 @@ Here is the smallest mental model I use:
 
 The important result is not the text layer itself. It is the compiled VideoJSON. Once you have that, you can move the same project into a browser export, a server render, or a preview surface without rewriting the scene from scratch.
 
-If you want a similar angle that focuses on the browser and export handoff, [How to Turn Video JSON Into Browser Preview and MP4 Export](https://the-lean-ecommerce.github.io/2026/05/31/how-to-turn-video-json-into-browser-preview-and-mp4-export/) is the closest companion.
+If you want a similar angle that focuses on the browser and export handoff, [How to Build a Portable JSON-to-Video Pipeline with VideoFlow](https://the-lean-ecommerce.github.io/2026/05/17/how-to-build-a-portable-json-to-video-pipeline-with-videoflow/) is the closest companion.
 
 ## Step 2: Keep VideoJSON As The Reviewable Artifact
 
@@ -58,7 +58,7 @@ This is the part teams usually skip.
 
 If the project lives only as a visual timeline, the logic is hard to diff and hard to reuse. If the project compiles to JSON, the structure becomes inspectable and portable. That is the version I want in Git, in code review, and in automation workflows.
 
-I also like that this opens the door to agents and generators. Instead of asking a model to edit a frame-by-frame timeline, you can ask it to produce structured video data that VideoFlow can render later. If that is the direction you are headed, [How to Let AI Agents Draft VideoJSON for VideoFlow Templates](https://the-lean-ecommerce.gitlab.io/2026/06/01/how-to-let-ai-agents-draft-videojson-for-videoflow-templates/) is worth reading next.
+I also like that this opens the door to agents and generators. Instead of asking a model to edit a frame-by-frame timeline, you can ask it to produce structured video data that VideoFlow can render later. If that is the direction you are headed, [How to Let AI Agents Draft VideoJSON for VideoFlow Templates](https://the-lean-ecommerce.github.io/2026/05/29/how-to-let-ai-agents-draft-videojson-for-videoflow-templates/) is worth reading next.
 
 The practical benefit is that the team stops treating video as a one-off asset and starts treating it like maintainable code.
 
@@ -99,7 +99,7 @@ VideoFlow’s editor component gives you a multi-track timeline, drag and trim i
 
 ![React video editor timeline illustration for VideoFlow](/assets/img/posts/2026-06-06-how-to-build-a-videojson-pipeline-for-browser-server-and-react/image-03-d879ef7f6b73.png)
 
-If you are embedding the editor into a product, [How to Add a Multi-Track React Video Editor to Your SaaS App](https://the-lean-ecommerce.gitlab.io/2026/05/31/how-to-add-a-multi-track-react-video-editor-to-your-saas-app/) covers the integration mindset well.
+If you are embedding the editor into a product, [How I Built a React Video Editor Around Portable JSON with VideoFlow](https://the-lean-ecommerce.github.io/2026/05/26/how-i-built-a-react-video-editor-around-portable-json-with-videoflow/) covers the integration mindset well.
 
 ## Step 5: Let AI Generate Scenes, Not Manual Timeline Edits
 
