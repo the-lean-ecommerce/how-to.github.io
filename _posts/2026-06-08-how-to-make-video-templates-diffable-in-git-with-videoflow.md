@@ -2,7 +2,7 @@
 layout: post
 title: "How to Make Video Templates Diffable in Git with VideoFlow"
 description: "A practical VideoFlow workflow for storing portable VideoJSON in Git, rendering it in multiple environments, and keeping template changes reviewable."
-date: 2026-06-08 14:44:52 +0000
+date: 2026-06-08 14:49:20 +0000
 categories: [how-to]
 tags: [videoflow, videojson, typescript, react, open-source]
 canonical_url: ""
@@ -111,7 +111,7 @@ That keeps the workflow predictable:
 
 ![An AI agent assembling reusable video templates](/assets/img/posts/2026-06-08-how-to-make-video-templates-diffable-in-git-with-videoflow/image-03-d9327f044ee9.png)
 
-This is the same pattern described in [How to Let AI Agents Draft VideoJSON for VideoFlow Templates](https://the-lean-ecommerce.github.io/2026/05/29/how-to-let-ai-agents-draft-videojson-for-videoflow-templates/) and [Why AI Agents Need a Structured Video Format](https://the-lean-ecommerce.github.io/2026/05/29/why-ai-agents-need-a-structured-video-format/). The practical benefit is not just speed. It is that the review step stays code-native.
+This is the same pattern described in [How to Let AI Agents Draft VideoJSON for VideoFlow Templates](https://the-lean-ecommerce.github.io/2026/05/29/how-to-let-ai-agents-draft-videojson-for-videoflow-templates/) and [How to Build a VideoJSON Pipeline for Browser, Server, and React](https://the-lean-ecommerce.com/blog/how-to-build-a-videojson-pipeline-for-browser-server-and-react-N1m7+daKgP3l7w6bSxQk2A). The practical benefit is not just speed. It is that the review step stays code-native.
 
 Expected result: AI helps generate options, but the repo still holds the source of truth.
 
