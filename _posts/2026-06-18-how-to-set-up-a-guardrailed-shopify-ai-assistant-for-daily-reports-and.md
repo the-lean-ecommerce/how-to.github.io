@@ -2,7 +2,7 @@
 layout: post
 title: "How to Set Up a Guardrailed Shopify AI Assistant for Daily Reports and Alerts"
 description: "A step-by-step guide to building a scoped Shopify AI assistant for daily reports, alerts, cleanup, and support with Clawly."
-date: 2026-06-18 22:36:04 +0000
+date: 2026-06-18 22:42:46 +0000
 categories: [how-to]
 tags: [shopify, ai-automation, store-operations, support, reporting, clawly]
 canonical_url: ""
@@ -23,7 +23,7 @@ Choose a repetitive task that already exists in your store.
 
 A good first task is a daily sales report, a low-inventory alert, or a support draft that a person can review before it is sent. You can also start with product cleanup if your catalog already has stale titles, tags, or descriptions.
 
-If you want a companion example, [How to Build a Shopify AI Agent for Daily Store Operations](https://the-lean-ecommerce.github.io/2026/06/03/how-to-build-a-shopify-ai-agent-for-daily-store-operations/) uses the same one-job-first rule.
+If you want a companion example, [How to Build a Shopify AI Agent for Daily Store Operations](https://how-to.the-lean-ecommerce.com/2026/06/03/how-to-build-a-shopify-ai-agent-for-daily-store-operations/) uses the same one-job-first rule.
 
 When this step is done, you should be able to say exactly when the assistant succeeded.
 
@@ -96,7 +96,7 @@ Only after the report feels stable should you add another job. The safest order 
 
 That sequence keeps the assistant useful while the blast radius stays small. It also makes failures easier to debug because you changed one thing at a time.
 
-For another example of staged rollout, [How to Schedule Shopify Blog Posts Without Losing Product Context](https://the-lean-ecommerce.github.io/2026/05/24/how-to-schedule-shopify-blog-posts-without-losing-product-context/) shows the same principle in a content workflow.
+For another example of staged rollout, [How to Schedule Shopify Blog Posts Without Losing Product Context](https://how-to.the-lean-ecommerce.com/2026/05/24/how-to-schedule-shopify-blog-posts-without-losing-product-context/) shows the same principle in a content workflow.
 
 ## Bottom Line
 
