@@ -2,7 +2,7 @@
 layout: post
 title: "How to Download a Squarespace Site and Move It to GitHub Pages"
 description: "Export Squarespace to static HTML with ExFlow, keep assets intact, and publish the result on GitHub Pages."
-date: 2026-06-20 22:35:21 +0000
+date: 2026-06-20 22:42:20 +0000
 categories: [how-to]
 tags: [squarespace, github-pages, static-hosting, html, exflow]
 canonical_url: ""
@@ -59,7 +59,7 @@ Expected result: your exported site is now a versioned static site, not a one-of
 
 If the site depends on custom behavior, keep the additions limited to `script.js` and `style.css` so the export stays maintainable. That is the main advantage of exporting Squarespace instead of recreating the site by hand: you keep the original structure, but you still get files you can version, review, and move.
 
-If you want adjacent migration patterns, these posts are worth comparing with this one: [How to Self-Host a Squarespace Site on GitHub Pages Without Rebuilding It](https://the-lean-ecommerce.github.io/2026/06/08/how-to-self-host-a-squarespace-site-on-github-pages-without-rebuilding/), [How to Export a Squarespace Site to HTML and Self-Host It](https://the-lean-ecommerce.blogspot.com/2026/06/how-to-export-a-squarespace-site-to-html.html), [How I Turn a Squarespace Site Into HTML Without Rebuilding It](https://the-lean-ecommerce.github.io/2026/06/17/how-i-turn-a-squarespace-site-into-html-without-rebuilding-it/), and [How I Export Webflow Sites to Static Hosting, Git, or FTP](https://the-lean-ecommerce.gitlab.io/2026/06/11/how-i-export-webflow-sites-to-static-hosting-git-or-ftp/). The common thread is the same: export once, keep the site portable.
+If you want adjacent migration patterns, these posts are worth comparing with this one: [How to Self-Host a Squarespace Site on GitHub Pages Without Rebuilding It](https://the-lean-ecommerce.github.io/2026/06/08/how-to-self-host-a-squarespace-site-on-github-pages-without-rebuilding/), [How to Export a Framer Site to GitHub Pages Without Rebuilding It](https://the-lean-ecommerce.github.io/2026/06/14/how-to-export-a-framer-site-to-github-pages-without-rebuilding-it/), [How I Turn a Squarespace Site Into HTML Without Rebuilding It](https://the-lean-ecommerce.github.io/2026/06/17/how-i-turn-a-squarespace-site-into-html-without-rebuilding-it/), and [How I Export Webflow Sites to Static Hosting, Git, or FTP](https://the-lean-ecommerce.gitlab.io/2026/06/11/how-i-export-webflow-sites-to-static-hosting-git-or-ftp/). The common thread is the same: export once, keep the site portable.
 
 Expected result: you only keep the custom code you can justify.
 
