@@ -26,7 +26,7 @@ Expected result: you know which lane to use before you spend time generating ver
 
 ![Decision tree for choosing a Shopify AI visual workflow](/assets/img/posts/2026-06-22-how-to-decide-which-shopify-products-need-try-on-placement-or-video/image-01-07afd9013f44.png)
 
-That decision tree is the part most merchants skip. It is tempting to jump straight into the fanciest output, but the better move is to match the edit to the missing context. If you want the narrower version of this process, see [How to Choose the Right AI Edit for Each Shopify Product Photo](https://the-lean-ecommerce.github.io/2026/06/20/how-to-choose-the-right-ai-edit-for-each-shopify-product-photo/).
+That decision tree is the part most merchants skip. It is tempting to jump straight into the fanciest output, but the better move is to match the edit to the missing context. If you want the narrower version of this process, see [How to Choose the Right AI Edit for Each Shopify Product Photo](https://how-to.the-lean-ecommerce.com/2026/06/20/how-to-choose-the-right-ai-edit-for-each-shopify-product-photo/).
 
 ## 2. Clean the source first when the product is already right
 
