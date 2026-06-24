@@ -9,6 +9,9 @@ canonical_url: ""
 image: "/assets/img/posts/2026-06-24-how-to-build-a-shopify-3d-capture-checklist-that-works/cover-0d925d88b0b4.png"
 ---
 
+image: "/assets/img/posts/2026-06-24-how-to-build-a-shopify-3d-capture-checklist-that-works/cover-0d925d88b0b4.png"
+---
+
 If you want to turn a normal product photo session into a Shopify-ready 3D model, the easiest way to make it repeatable is to work from a checklist. With [Supra 3D Capture](https://supra-3d-capture.sktch.io/), you can capture a short orbit of phone photos, process them into a web-ready 3D model, and publish the result into Shopify product media or an Online Store 2.0 theme app block.
 
 The point is not to make 3D feel technical. The point is to make the workflow predictable enough that a merchant, a content editor, or an operator can run it the same way every time.
@@ -19,7 +22,7 @@ The point is not to make 3D feel technical. The point is to make the workflow pr
 
 Start with a product that has enough shape and surface detail to reward 3D. A solid, rigid item with visible edges, texture, and contrast is a much safer first scan than something glassy, hairy, or ultra-reflective.
 
-If you want help deciding what to choose, use the product-selection logic from [How to Tell If a Shopify Product Will Scan Cleanly in 3D](https://how-to.the-lean-ecommerce.com/2026/06/13/how-to-tell-if-a-shopify-product-will-scan-cleanly-in-3d/) and [How to Choose the First Shopify Products for 3D Capture](https://how-to-blog.gitlab.io/2026/06/14/how-to-choose-the-first-shopify-products-for-3d-capture/). Those are the fastest ways to avoid wasting time on a SKU that was never a good candidate.
+If you want help deciding what to choose, use the product-selection logic from [How to Tell If a Shopify Product Will Scan Cleanly in 3D](https://how-to-blog.gitlab.io/2026/06/13/how-to-tell-if-a-shopify-product-will-scan-cleanly-in-3d/) and [How to Choose the First Shopify Products for 3D Capture](https://how-to-blog.gitlab.io/2026/06/14/how-to-choose-the-first-shopify-products-for-3d-capture/). Those are the fastest ways to avoid wasting time on a SKU that was never a good candidate.
 
 Expected result: you know which product is worth scanning before you open the capture flow.
 
@@ -100,7 +103,7 @@ The practical benefit is not a promise of instant conversion lift. The real win 
 
 That can improve engagement, reduce expectation gaps, and make the page feel more memorable. It also gives you a cleaner internal process for deciding which SKUs deserve 3D media first.
 
-If you want the broader decision framework, the recent posts on [which products deserve 3D capture first](https://how-to.the-lean-ecommerce.com/2026/06/13/how-to-tell-if-a-shopify-product-will-scan-cleanly-in-3d/), [how to choose the first products](https://how-to-blog.gitlab.io/2026/06/14/how-to-choose-the-first-shopify-products-for-3d-capture/), and [how to plan the capture shot list](https://the-lean-ecommerce.blogspot.com/2026/06/how-to-build-shopify-3d-capture-shot.html) are worth reading together.
+If you want the broader decision framework, the recent posts on [which products deserve 3D capture first](https://how-to-blog.gitlab.io/2026/06/13/how-to-tell-if-a-shopify-product-will-scan-cleanly-in-3d/), [how to choose the first products](https://how-to-blog.gitlab.io/2026/06/14/how-to-choose-the-first-shopify-products-for-3d-capture/), and [how to plan the capture shot list](https://the-lean-ecommerce.blogspot.com/2026/06/how-to-build-shopify-3d-capture-shot.html) are worth reading together.
 
 ## Conclusion
 
