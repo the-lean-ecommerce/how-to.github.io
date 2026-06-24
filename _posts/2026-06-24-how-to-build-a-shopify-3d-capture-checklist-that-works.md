@@ -2,7 +2,7 @@
 layout: post
 title: "How to Build a Shopify 3D Capture Checklist That Works"
 description: "A practical checklist for turning phone photos into Shopify-ready 3D models with Supra 3D Capture, from shot prep to native publishing."
-date: 2026-06-24 12:00:00 +0000
+date: 2026-06-24 00:00:00 +0000
 categories: [how-to]
 tags: [shopify, 3d, photogrammetry, product-photography, ecommerce]
 canonical_url: ""
