@@ -75,7 +75,7 @@ The React editor is useful when someone other than the developer needs to adjust
 
 Expected result: the editor changes clips, text, and layers while the rendering pipeline stays intact.
 
-![VideoFlow React editor workflow illustration](/assets/img/posts/2026-06-25-how-to-add-a-react-video-editor-without-rewriting-your-video-pipeline/image-01-0641399c3700.png)
+![VideoFlow React editor workflow illustration](/assets/img/posts/2026-06-25-how-to-add-a-react-video-editor-without-rewriting-your-video-pipeline/image-02-3901971735cd.png)
 
 That surface is especially good when you want a product team, marketer, or operator to tune the template without touching the renderer implementation. It also fits the broader integration pattern described in [How I Built a React Video Editor Around Portable JSON with VideoFlow](https://the-lean-ecommerce.github.io/2026/05/26/how-i-built-a-react-video-editor-around-portable-json-with-videoflow/). If you are thinking in terms of app UX instead of just rendering, that is the right companion piece.
 
