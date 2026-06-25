@@ -38,7 +38,7 @@ Expected result: one reviewable source of truth that can drive multiple render t
 
 ![VideoFlow JSON pipeline diagram](/assets/img/posts/2026-06-25-how-to-add-a-react-video-editor-without-rewriting-your-video-pipeline/image-01-0641399c3700.png)
 
-That portability is the reason the browser/export story, the preview story, and the editor story can stay aligned. If you want the architecture view of that split, [How to Build a VideoJSON Pipeline for Browser, Server, and React](https://the-lean-ecommerce.github.io/2026/06/06/how-to-build-a-videojson-pipeline-for-browser-server-and-react/) is the best companion article. For the browser export path specifically, [How to Turn Video JSON Into Browser Preview and MP4 Export](https://the-lean-ecommerce.github.io/2026/05/31/how-to-turn-video-json-into-browser-preview-and-mp4-export/) goes deeper.
+That portability is the reason the browser/export story, the preview story, and the editor story can stay aligned. If you want the architecture view of that split, [How I Keep One Video Workflow Portable Across Browser, Server, and React](https://the-lean-ecommerce.github.io/2026/06/11/how-i-keep-one-video-workflow-portable-across-browser-server-and-react/) is the best companion article. For the browser export path specifically, [How to Add Browser MP4 Export Without Forking Your Video Template](https://the-lean-ecommerce.github.io/2026/06/09/how-to-add-browser-mp4-export-without-forking-your-video-template/) goes deeper.
 
 ## 2. Pick the renderer from the runtime, not the other way around
 
@@ -52,7 +52,7 @@ Expected result: the same VideoJSON can move through browser export, server jobs
 
 ![VideoFlow renderer decision diagram](/assets/img/posts/2026-06-25-how-to-add-a-react-video-editor-without-rewriting-your-video-pipeline/image-02-3901971735cd.png)
 
-This is where a lot of editor projects go wrong. They start with a visual surface first, then bolt rendering on later, and the two systems slowly diverge. VideoFlow’s split is cleaner because the renderer is selected per workflow, not baked into the scene structure. If you want a shorter version of that model, [How to Build a Portable Video Workflow Around VideoJSON](https://the-lean-ecommerce.gitlab.io/2026/06/21/how-to-build-a-portable-video-workflow-around-videojson/) is a useful follow-up.
+This is where a lot of editor projects go wrong. They start with a visual surface first, then bolt rendering on later, and the two systems slowly diverge. VideoFlow’s split is cleaner because the renderer is selected per workflow, not baked into the scene structure. If you want a shorter version of that model, [How to Build a Three-Renderer Video Workflow With VideoFlow](https://the-lean-ecommerce.gitlab.io/2026/06/01/how-to-build-a-three-renderer-video-workflow-with-videoflow/) is a useful follow-up.
 
 ## 3. Add the React editor as a UI layer on top of the same data
 
@@ -87,7 +87,7 @@ You can also let AI help with structure instead of asking it to freestyle a fini
 
 ![VideoFlow diffable JSON workflow illustration](/assets/img/posts/2026-06-25-how-to-add-a-react-video-editor-without-rewriting-your-video-pipeline/image-03-9523ae105924.png)
 
-Expected result: your video templates behave more like code and less like one-off exports. That is also the reason [How I Keep Video Templates Stable as Data Changes](https://the-lean-ecommerce.github.io/2026/06/12/how-i-keep-product-video-templates-stable-as-data-changes/) and [How I Keep Video Preview, Editing, and Export in Sync With VideoJSON](https://dev.to/ybouane/how-i-keep-video-preview-editing-and-export-in-sync-with-videojson-54ge) fit naturally next to this article.
+Expected result: your video templates behave more like code and less like one-off exports. That is also the reason [How I Keep Video Templates Stable as Data Changes](https://the-lean-ecommerce.github.io/2026/06/12/how-i-keep-product-video-templates-stable-as-data-changes/) and [How to Add Browser MP4 Export Without Forking Your Video Template](https://the-lean-ecommerce.github.io/2026/06/09/how-to-add-browser-mp4-export-without-forking-your-video-template/) fit naturally next to this article.
 
 ## 5. Use one decision rule for the whole stack
 
