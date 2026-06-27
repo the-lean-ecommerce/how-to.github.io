@@ -2,7 +2,7 @@
 layout: post
 title: "How to Bulk Edit Etsy Listings Before a Sale or Seasonal Refresh"
 description: "A practical walkthrough for batch editing Etsy listings, variations, prices, tags, and images without repeating the same work listing by listing."
-date: 2026-06-27 12:00:00 +0000
+date: 2026-06-27 02:00:00 +0000
 categories: [how-to]
 tags: [etsy, bulk-editing, listings, variations, inventory, ecommerce]
 canonical_url: ""
