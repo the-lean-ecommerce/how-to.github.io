@@ -49,7 +49,7 @@ The easiest way to get generic output is to start with a keyword and hope the ar
 
 For example, if the reader is trying to keep a store blog active while running the business, the article should explain how to build a repeatable workflow, how to decide what gets published, and how to keep the content tied to products and collections. That is much stronger than another thin post built only around search phrases.
 
-This is also where recent posts can help as internal context. If you want a related angle, see [How to Automate Shopify Blog Posts With Product-Aware Drafts](https://the-lean-ecommerce.github.io/2026/06/21/how-to-automate-shopify-blog-posts-with-product-aware-drafts/), [How to Build a Shopify Blog Automation Workflow That Feels Human](https://the-lean-ecommerce.github.io/2026/06/18/how-to-build-a-shopify-blog-automation-workflow-that-feels-human/), and [How I Keep Shopify Blog Automation From Sounding Generic](https://the-lean-ecommerce.gitlab.io/2026/06/25/how-i-keep-shopify-blog-automation-from-sounding-generic/).
+This is also where recent posts can help as internal context. If you want a related angle, see [How to Automate Shopify Blog Posts With Product-Aware Drafts](https://the-lean-ecommerce.blogspot.com/2026/06/how-to-automate-shopify-blog-posts-with_01163387680.html), [How to Build a Shopify Blog Automation Workflow That Feels Human](https://the-lean-ecommerce.github.io/2026/06/18/how-to-build-a-shopify-blog-automation-workflow-that-feels-human/), and [How I Keep Shopify Blog Automation From Sounding Generic](https://the-lean-ecommerce.gitlab.io/2026/06/25/how-i-keep-shopify-blog-automation-from-sounding-generic/).
 
 Expected result: the draft reads like a helpful answer first and an SEO asset second.
 
