@@ -2,7 +2,7 @@
 layout: post
 title: "How to Turn Notion Drafts Into Webflow CMS Posts With SyncFlow"
 description: "Map Notion fields, choose sync behavior, and publish Webflow CMS posts without rebuilding pages by hand."
-date: 2026-06-28 14:35:56 +0000
+date: 2026-06-28 14:42:55 +0000
 categories: [how-to]
 tags: [notion, webflow, automation, cms, syncflow]
 canonical_url: ""
@@ -34,7 +34,7 @@ The most important decision is matching each Notion property to the right Webflo
 
 If your posts use authors, categories, hero images, or slugs, map those intentionally. The same is true for links between Notion pages: SyncFlow can turn those into links between Webflow posts, which is useful when one article points to another.
 
-If you want the broader setup context, compare this stage with [How to Connect Notion and Webflow for Automatic CMS Sync](https://the-lean-ecommerce.github.io/2026/06/04/how-to-connect-notion-and-webflow-for-automatic-cms-sync/), [How I Decide What Should Sync From Notion Into Webflow](https://the-lean-ecommerce.com/blog/how-i-decide-what-should-sync-from-notion-into-webflow-OGm7+daKgTKzjcYUOZCzyA), [My Checklist for Syncing Notion Articles Into Webflow CMS](https://the-lean-ecommerce.com/blog/my-checklist-for-syncing-notion-articles-into-webflow-cms-OHm7+daKgUeNZfV327hCEg), and [How I Build a Clean Notion-to-Webflow Publishing Pipeline With SyncFlow](https://the-lean-ecommerce.gitlab.io/2026/06/23/how-i-build-a-clean-notion-to-webflow-publishing-pipeline-with-syncflo/). The structure matters more than the sync button.
+If you want the broader setup context, compare this stage with [How to Connect Notion and Webflow for Automatic CMS Sync](https://how-to.the-lean-ecommerce.com/2026/06/04/how-to-connect-notion-and-webflow-for-automatic-cms-sync/), [How I Decide What Should Sync From Notion Into Webflow](https://the-lean-ecommerce.com/blog/how-i-decide-what-should-sync-from-notion-into-webflow-OGm7+daKgTKzjcYUOZCzyA), [My Checklist for Syncing Notion Articles Into Webflow CMS](https://the-lean-ecommerce.com/blog/my-checklist-for-syncing-notion-articles-into-webflow-cms-OHm7+daKgUeNZfV327hCEg), and [How I Build a Clean Notion-to-Webflow Publishing Pipeline With SyncFlow](https://the-lean-ecommerce.gitlab.io/2026/06/23/how-i-build-a-clean-notion-to-webflow-publishing-pipeline-with-syncflo/). The structure matters more than the sync button.
 
 Expected result: each Notion field has one obvious place in Webflow, and you do not need manual cleanup after import.
 
