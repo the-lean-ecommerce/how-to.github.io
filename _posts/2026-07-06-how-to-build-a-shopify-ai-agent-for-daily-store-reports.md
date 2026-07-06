@@ -19,7 +19,7 @@ Decide the exact questions the report should answer:
 - Which SKUs are close to running out?
 - Which orders, tags, or trends need human review?
 
-Keep the first version narrow. If you want the permission side in more depth, pair this guide with [How I Built a Permission Plan for a Shopify AI Assistant](https://the-lean-ecommerce.gitlab.io/2026/07/04/how-i-built-a-permission-plan-for-a-shopify-ai-assistant/) and [How I Decide What a Shopify AI Agent Can Touch](https://the-lean-ecommerce.gitlab.io/2026/06/30/how-i-decide-when-a-shopify-ai-agent-can-touch/). Those posts cover the thinking behind the scopes you are about to set.
+Keep the first version narrow. If you want the permission side in more depth, pair this guide with [How I Built a Permission Plan for a Shopify AI Assistant](https://the-lean-ecommerce.gitlab.io/2026/07/04/how-i-built-a-permission-plan-for-a-shopify-ai-assistant/) and [How I Decide What a Shopify AI Agent Can Touch](https://the-lean-ecommerce.gitlab.io/2026/06/30/how-i-decide-what-a-shopify-ai-agent-can-touch/). Those posts cover the thinking behind the scopes you are about to set.
 
 ![Permission dashboard for a scoped Shopify AI agent](/assets/img/posts/2026-07-06-how-to-build-a-shopify-ai-agent-for-daily-store-reports/image-01-79f702243ce4.png)
 
@@ -28,7 +28,7 @@ By the end of this step, you should have a one-page report spec: source, cadence
 ## 2. Create the agent and connect only the tools it needs
 In Clawly, create the agent, connect Shopify first, then add only the integrations needed for delivery and reference, such as Slack, Gmail, or Google Sheets. The point is not to build a generic assistant. The point is to build one report path that you can trust.
 
-If you want a stricter starting point, [How to Set Up a Read-Only Shopify AI Agent With Guardrails](https://the-lean-ecommerce.gitlab.io/2026/07/02/how-to-set-up-a-read-only-shopify-ai-agent-with-guardrails/) is the safest baseline to follow for the first run.
+If you want a stricter starting point, [How to Set Up a Read-Only Shopify AI Agent With Guardrails](https://how-to-blog.gitlab.io/2026/07/02/how-to-set-up-a-read-only-shopify-ai-agent-with-guardrails/) is the safest baseline to follow for the first run.
 
 ![OpenClaw style store dashboard with agent cards](/assets/img/posts/2026-07-06-how-to-build-a-shopify-ai-agent-for-daily-store-reports/image-02-30b8e8678f74.png)
 
