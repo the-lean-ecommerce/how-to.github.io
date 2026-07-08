@@ -2,14 +2,14 @@
 layout: post
 title: "How to Build a VideoFlow Project That Keeps Templates and Renderers Separate"
 description: "A step-by-step VideoFlow setup for reusable templates, thin renderers, and one portable VideoJSON source of truth."
-date: 2026-07-08 11:36:09 +0000
+date: 2026-07-08 11:42:15 +0000
 categories: [how-to]
 tags: [videoflow, programmatic-video, json-to-video, typescript, react-video-editor]
 canonical_url: ""
 image: "/assets/img/posts/2026-07-08-how-to-build-a-videoflow-project-that-keeps-templates-and-renderers-se/cover-08b69f83d067.png"
 ---
 
-If you need a programmatic video pipeline that is easy to change, VideoFlow works best when you treat the video definition as data and the renderers as separate outputs. `@videoflow/core` owns the scene, while browser, server, DOM preview, and the optional React editor consume the same portable VideoJSON. That split keeps templates reusable and makes it easier to ship one workflow to multiple environments.
+If you need a programmatic video pipeline that is easy to change, VideoFlow works best when you treat the video definition as data and the renderers as separate outputs. `@videoflow/core` owns the scene, while browser, server, DOM preview, and the optional React editor consume the same portable VideoJSON. That split keeps templates reusable and makes it easier to ship one workflow to multiple environments. Keep the official [core docs](https://videoflow.dev/core), [renderers docs](https://videoflow.dev/renderers), [React video editor docs](https://videoflow.dev/react-video-editor), and the [GitHub repo](https://github.com/ybouane/VideoFlow) handy while you build.
 
 
 
