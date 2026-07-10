@@ -2,7 +2,7 @@
 layout: post
 title: "How to Roll Out Shopify Swatches Without Touching Theme Code"
 description: "Set up Shopify color and image swatches for variants, linked products, and collection pages without touching theme code."
-date: 2026-07-10 03:35:39 +0000
+date: 2026-07-10 03:42:56 +0000
 categories: [how-to]
 tags: [shopify, swatches, variants, collections, ecommerce, product-images]
 canonical_url: ""
@@ -37,7 +37,7 @@ Expected result: the first product page shows swatches that match the catalog an
 
 Once the first product works, check the product page on desktop and mobile. The point is not just to replace a dropdown. The point is to make the choice obvious at a glance.
 
-That is where the product-page styling matters. Keep the swatch labels short, make sure the active state is obvious, and use image swatches only where the image actually helps the buyer decide. If the store already relies on strong product imagery, [How to Build a Repeatable Shopify Image Workflow From One Product Shot](https://the-lean-ecommerce.github.io/2026/06/12/how-to-build-a-repeatable-shopify-image-workflow-from-one-product-shot/) is a useful companion when you need consistent source images for swatches or alternate visuals.
+That is where the product-page styling matters. Keep the swatch labels short, make sure the active state is obvious, and use image swatches only where the image actually helps the buyer decide. If the store already relies on strong product imagery, [How to Build a Shopify Product Photo Workflow Without a New Shoot](https://the-lean-ecommerce.github.io/2026/07/08/how-to-build-a-shopify-product-photo-workflow-without-a-new-shoot/) is a useful companion when you need consistent source images for swatches or alternate visuals.
 
 ![Turn variant options into swatch field and link products with swatches](/assets/img/posts/2026-07-10-how-to-roll-out-shopify-swatches-without-touching-theme-code/image-03-3c2b2877ff1d.png)
 
