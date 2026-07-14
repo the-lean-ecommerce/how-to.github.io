@@ -2,7 +2,7 @@
 layout: post
 title: "How to Self-Host a Webflow CMS Site Without Rebuilding It"
 description: "A practical workflow for exporting a Webflow site, checking the bundle, and hosting it on GitHub Pages, S3, FTP, or ExFlow."
-date: 2026-07-14 23:34:08 +0000
+date: 2026-07-14 23:41:03 +0000
 categories: [how-to]
 tags: [webflow, static-hosting, cms, export, github-pages]
 canonical_url: ""
@@ -11,7 +11,7 @@ image: "/assets/img/posts/2026-07-14-how-to-self-host-a-webflow-cms-site-without
 
 If you want to move a Webflow site onto static hosting without rebuilding it, the cleanest path is simple: export the site, verify the bundle, then deploy it somewhere you control. [ExFlow](https://exflow.site/) is built for that workflow, so you can export Webflow sites as static content and sync them to Git, S3, FTP, or ExFlow hosting.
 
-Webflow's own [export help article](https://help.webflow.com/hc/en-us/articles/33961386739347-How-do-I-export-my-Webflow-site-code) is the right baseline for understanding the native ZIP, and the [export glossary](https://webflow.com/glossary/export) gives a concise definition of the package. If you are trying to keep a CMS-driven site portable, the important part is checking the output before you commit to a host.
+Webflow's [export glossary](https://webflow.com/glossary/export) gives a concise definition of the package. If you are trying to keep a CMS-driven site portable, the important part is checking the output before you commit to a host.
 
 ![Webflow export settings illustration](/assets/img/posts/2026-07-14-how-to-self-host-a-webflow-cms-site-without-rebuilding-it/image-01-a438a11ea95a.png)
 
@@ -50,7 +50,7 @@ Expected result: you have one destination, not four half-decided options.
 ## 5. Turn it into a repeatable update loop
 The real win is not a single export. It is a process you can repeat: make the Webflow change, export again, check the bundle, sync it, and confirm the live URL. That keeps the site portable without forcing you back into a rebuild.
 
-If you want a companion checklist, compare this with [How I Self-Host a Webflow Site After Exporting CMS Content](https://the-lean-ecommerce.com/blog/how-i-self-host-a-webflow-site-after-exporting-cms-content-OTm7+daKge2Y3OqYG8v3zg), [How to Export a Webflow Site to Static HTML](https://productivity-tech-business.blogspot.com/2026/07/how-to-export-a-webflow-site-to.html), [How to Self-Host a Webflow Site With Git, S3, or FTP](https://productivity-tech-business.blogspot.com/2026/07/how-to-self-host-webflow-site-with-git.html), and [How I Decide When a Framer Site Is Ready for Static Hosting](https://the-lean-ecommerce.com/blog/how-i-decide-when-a-framer-site-is-ready-for-static-hosting-OUm7+daKgWW0SOUbxkn6vw).
+If you want a companion checklist, compare this with [How I Self-Host a Webflow Site After Exporting CMS Content](https://the-lean-ecommerce.com/blog/how-i-self-host-a-webflow-site-after-exporting-cms-content-OTm7+daKge2Y3OqYG8v3zg), [How to Export a Webflow CMS Site to GitHub Pages Without Rebuilding It](https://the-lean-ecommerce.github.io/2026/06/03/how-to-export-a-webflow-cms-site-to-github-pages-without-rebuilding-it/), [How I Exported My Webflow CMS Site to Static Hosting Without Rebuilding It](https://the-lean-ecommerce.github.io/2026/06/09/how-i-exported-my-webflow-cms-site-to-static-hosting-without-rebuildin/), and [How I Export a Webflow CMS Site to Static HTML Without Rebuilding It](https://the-lean-ecommerce.gitlab.io/2026/06/29/how-i-export-a-webflow-cms-site-to-static-html-without-rebuilding-it/).
 
 ## Bottom line
 If your goal is to keep Webflow design flexibility but own the hosting layer, ExFlow gives you the cleanest path: export, review, host. Start with one site, confirm the result, then standardize the workflow for the rest of your builds.
