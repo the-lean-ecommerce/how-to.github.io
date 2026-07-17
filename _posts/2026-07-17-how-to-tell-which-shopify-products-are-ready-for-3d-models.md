@@ -2,7 +2,7 @@
 layout: post
 title: "How to Tell Which Shopify Products Are Ready for 3D Models"
 description: "A practical Shopify checklist for deciding which products are worth scanning before you spend time on 3D capture."
-date: 2026-07-17 12:00:00 +0000
+date: 2026-07-17 03:30:00 +0000
 categories: [how-to]
 tags: [shopify, ecommerce, 3d-models, product-photography, photogrammetry]
 canonical_url: ""
@@ -87,7 +87,7 @@ After the first scan lands, I ask three questions.
 
 That last question is important. Sometimes the answer is still "better photos." If so, I send the SKU back into the photo workflow instead of pretending 3D was the right answer.
 
-That is where the other product-page workflows come in handy. If a product is a better candidate for context than for geometry, I would use the thinking from [How I Decide Whether a Shopify Product Photo Needs Try-On, Placement, or Video](https://the-lean-ecommerce.github.io/2026/07/11/how-i-decide-whether-a-shopify-product-photo-needs-try-on-placement-or/) or [How to Build a Shopify Creative Testing Loop From One Product Photo](https://the-lean-ecommerce.github.io/2026/07/16/how-to-build-a-shopify-creative-testing-loop-from-one-product-photo/). The point is to choose the format that answers the shopper's question fastest.
+That is where the other product-page workflows come in handy. If a product is a better candidate for context than for geometry, I would use the thinking from [How I Decide Whether a Shopify Product Photo Needs Try-On, Placement, or Video](https://the-lean-ecommerce.github.io/2026/07/11/how-i-decide-whether-a-shopify-product-photo-needs-try-on-placement-or/) or [How I Build a Shopify Product Photo Pipeline That Feeds Every Channel](https://the-lean-ecommerce.github.io/2026/07/10/how-i-build-a-shopify-product-photo-pipeline-that-feeds-every-channel/). The point is to choose the format that answers the shopper's question fastest.
 
 ## My rule of thumb
 
