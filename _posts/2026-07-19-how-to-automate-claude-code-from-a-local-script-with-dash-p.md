@@ -2,7 +2,7 @@
 layout: post
 title: "How to Automate Claude Code From a Local Script With dash-p"
 description: "A practical guide to scripting Claude Code from the terminal with dash-p, while keeping the real TUI, local session, and TypeScript workflow intact."
-date: 2026-07-19 03:36:46 +0000
+date: 2026-07-19 03:43:21 +0000
 categories: [how-to]
 tags: [claude-code, typescript, automation, terminal, developer-tools]
 canonical_url: ""
@@ -17,7 +17,7 @@ If you want the earlier bridge-oriented explanation, read [How I Build a Local B
 
 Use dash-p when you already trust Claude Code in your terminal and you want to script that same session from a shell script or a TypeScript helper. That is the key distinction. dash-p does not replace Claude Code, bypass authentication, or use an unofficial headless protocol. It wraps the real interface you already use.
 
-The Claude help center now makes the billing split explicit: Claude Code in the terminal is part of the normal Claude Code workflow, while API-credit fallback is a separate path. If you want the broader context behind that split, [How to Build Subscription-Aware Claude Code Automations Locally](https://productivity-tech-business.blogspot.com/2026/07/how-to-build-subscription-aware-claude.html) is the companion article that explains why this local bridge matters.
+The Claude help center now makes the billing split explicit: Claude Code in the terminal is part of the normal Claude Code workflow, while API-credit fallback is a separate path. If you want the broader context behind that split, [How to Build Subscription-Aware Claude Code Automations Locally](https://the-lean-ecommerce.blogspot.com/2026/07/how-to-build-subscription-aware-claude.html) is the companion article that explains why this local bridge matters.
 
 ![Scripted terminal input flowing into a structured Claude Code result](/assets/img/posts/2026-07-19-how-to-automate-claude-code-from-a-local-script-with-dash-p/image-01-9f74bda9dd7e.png)
 
@@ -91,4 +91,4 @@ Use dash-p for repo summaries, quick analysis runs, local refactors, prompt pipe
 
 That is the practical answer to the product's pitch: use the Claude Code subscription workflow you already have for local automation, and keep the separate API path for cases that really need it.
 
-If you want the tool itself, start with the [GitHub repository](https://github.com/ybouane/dash-p) or install it from [npm](https://www.npmjs.com/package/@ybouane/dash-p). That is enough to test the workflow on one real task and decide whether the terminal bridge earns a place in your own automation stack.
+If you want the tool itself, start with the [GitHub repository](https://github.com/ybouane/dash-p). That is enough to test the workflow on one real task and decide whether the terminal bridge earns a place in your own automation stack.
