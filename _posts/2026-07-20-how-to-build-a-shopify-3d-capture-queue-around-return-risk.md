@@ -26,7 +26,7 @@ Use a small scoring sheet and rank each SKU on four questions:
 | Shape complexity | Is the form hard to understand from flat photos? | A spin-around view adds value |
 | Visual payoff | Will a rotating model show off the product better than a gallery? | The 3D model is worth the effort |
 
-If you want a lighter first-pass rule, [How to Choose Which Shopify Products Get 3D Models First](https://the-lean-ecommerce.github.io/2026/07/02/how-to-choose-which-shopify-products-get-3d-models-first/) is a good companion. This article is the operational version: use the score, then build the queue.
+If you want a lighter first-pass rule, [How to Choose Which Shopify Products Get 3D Models First](https://the-lean-ecommerce.com/blog/how-to-choose-which-shopify-products-get-3d-models-first-Oim7+daKgcW6JsPRKgayCw) is a good companion. This article is the operational version: use the score, then build the queue.
 
 A practical cutoff looks like this:
 
@@ -49,7 +49,7 @@ Use this order:
 3. The product that is easiest to capture cleanly.
 4. The product that will help you validate the workflow before you scale it.
 
-This is where a simple checklist helps. If you need one, [How to Build a Shopify 3D Capture Checklist That Works](https://the-lean-ecommerce.github.io/2026/06/24/how-to-build-a-shopify-3d-capture-checklist-that-works/) keeps the prep repeatable, and [How I Decide Which Shopify Products Are Worth a 3D Scan](https://the-lean-ecommerce.gitlab.io/2026/07/09/how-i-decide-which-shopify-products-are-worth-a-3d-scan/) is useful if you want a stricter scoring model.
+This is where a simple checklist helps. If you need one, [How to Start a Shopify 3D Capture Pilot With Three SKUs](https://how-to.the-lean-ecommerce.com/2026/07/09/how-to-start-a-shopify-3d-capture-pilot-with-three-skus/) keeps the prep repeatable, and [How I Decide Which Shopify Products Are Worth a 3D Scan](https://the-lean-ecommerce.gitlab.io/2026/07/09/how-i-decide-which-shopify-products-are-worth-a-3d-scan/) is useful if you want a stricter scoring model.
 
 Expected result: you have a short, defensible batch instead of an endless backlog.
 
