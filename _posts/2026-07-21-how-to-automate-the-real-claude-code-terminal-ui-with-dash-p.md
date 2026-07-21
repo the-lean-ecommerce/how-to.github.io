@@ -2,7 +2,7 @@
 layout: post
 title: "How to Automate the Real Claude Code Terminal UI With dash-p"
 description: "Use dash-p to script the real Claude Code terminal UI from shell scripts or TypeScript without switching to a separate headless path."
-date: 2026-07-21 23:39:40 +0000
+date: 2026-07-21 23:50:12 +0000
 categories: [how-to]
 tags: [claude, typescript, cli, automation, terminal]
 canonical_url: ""
@@ -89,4 +89,4 @@ If you want more background on the same tooling, the recent companion posts are 
 
 If you already trust Claude Code interactively and just need a scriptable entry point, dash-p keeps the workflow local and understandable. Start with the CLI, move to `query()` when you need structure, and keep the integration small until it proves useful.
 
-Try the package here: [dash-p on GitHub](https://github.com/ybouane/dash-p) and [@ybouane/dash-p on npm](https://www.npmjs.com/package/@ybouane/dash-p).
+Read the GitHub repository here: [dash-p on GitHub](https://github.com/ybouane/dash-p).
