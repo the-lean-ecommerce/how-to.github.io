@@ -2,7 +2,7 @@
 layout: post
 title: "How to Build a Shopify 3D Capture Shot List That Actually Works"
 description: "A practical phone-based workflow for planning a Shopify 3D capture session, from setup to publish."
-date: 2026-07-21 12:00:00 +0000
+date: 2026-07-21 07:00:00 +0000
 categories: [how-to]
 tags: [shopify, 3d-models, photogrammetry, product-photography, ecommerce, how-to]
 canonical_url: ""
