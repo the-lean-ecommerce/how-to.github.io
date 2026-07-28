@@ -2,7 +2,7 @@
 layout: post
 title: "How to Build a Local Query API for Claude Code With dash-p"
 description: "Build a local, subscription-aware scriptable layer around the real Claude Code TUI with dash-p and a TypeScript query() loop."
-date: 2026-07-28 07:41:31 +0000
+date: 2026-07-28 07:48:58 +0000
 categories: [how-to]
 tags: [dash-p, claude-code, automation, typescript, terminal]
 canonical_url: ""
@@ -35,7 +35,7 @@ Expected result: you can launch Claude Code manually, type a prompt, and get a n
 
 ## 2. Install dash-p and run the first prompt
 
-The package is published as [<code>@ybouane/dash-p</code>](https://www.npmjs.com/package/@ybouane/dash-p), and the source lives in the [dash-p repository](https://github.com/ybouane/dash-p).
+The package is published as <code>@ybouane/dash-p</code>, and the source lives in the [dash-p repository](https://github.com/ybouane/dash-p).
 
 ~~~bash
 npm install -g @ybouane/dash-p
@@ -50,7 +50,7 @@ npx @ybouane/dash-p "summarize this repo"
 
 Expected result: Claude Code opens in its real terminal UI, processes the prompt, and prints the final answer back into your shell. If that does not work, fix the Claude login or terminal setup first; do not start debugging dash-p until the underlying Claude session is healthy.
 
-For another Bash-first framing of the same pattern, see [How to Automate the Real Claude Code Terminal UI With dash-p](https://the-lean-ecommerce.com/2026/07/21/how-to-automate-the-real-claude-code-terminal-ui-with-dash-p/) and [How to Turn Claude Code Into a Local Shell Pipeline](https://the-lean-ecommerce.blogspot.com/2026/06/how-to-turn-claude-code-into-local.html).
+For another Bash-first framing of the same pattern, see [How to Automate the Real Claude Code Terminal UI With dash-p](https://how-to.the-lean-ecommerce.com/2026/07/21/how-to-automate-the-real-claude-code-terminal-ui-with-dash-p/) and [How to Turn Claude Code Into a Local Shell Pipeline](https://the-lean-ecommerce.blogspot.com/2026/06/how-to-turn-claude-code-into-local.html).
 
 ## 3. Put the call inside a small shell script
 
