@@ -94,4 +94,4 @@ The biggest win here is not that Claude Code became magical. It is that I can ke
 
 That is a narrow use case, but it is a useful one. If you already like Claude Code in the terminal and you want a small bridge into Bash or TypeScript, <code>dash-p</code> is a practical place to start.
 
-If you want to try it, start with a repo summary, then move to the <code>query()</code> API once you trust the output. The repository is [dash-p](https://github.com/ybouane/dash-p) and the package is [@ybouane/dash-p](https://www.npmjs.com/package/@ybouane/dash-p).
+If you want to try it, start with a repo summary, then move to the <code>query()</code> API once you trust the output. The repository is [dash-p](https://github.com/ybouane/dash-p).
