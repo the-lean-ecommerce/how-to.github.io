@@ -86,7 +86,7 @@ I would use <code>dash-p</code> for local developer workflows where the terminal
 
 I would not use it as the foundation for a hosted product or an unattended service. The whole point is that it is tied to the rendered Claude Code TUI, so it can inherit the same brittleness that comes with UI-driven automation. That is acceptable for local scripting and less appealing for a backend that needs API-level stability.
 
-If you want the more experimental angle on this same idea, [How to Build a Local Query API for Claude Code With dash-p](https://how-to.the-lean-ecommerce.com/2026/07/28/how-to-build-a-local-query-api-for-claude-code-with-dash-p/) and [How to Automate the Real Claude Code Terminal UI With dash-p](https://the-lean-ecommerce.com/2026/07/21/how-to-automate-the-real-claude-code-terminal-ui-with-dash-p/) both cover adjacent versions of the workflow.
+If you want the more experimental angle on this same idea, [How to Build a Local Query API for Claude Code With dash-p](https://how-to.the-lean-ecommerce.com/2026/07/28/how-to-build-a-local-query-api-for-claude-code-with-dash-p/) and [How to Automate the Real Claude Code Terminal UI With dash-p](https://how-to.the-lean-ecommerce.com/2026/07/21/how-to-automate-the-real-claude-code-terminal-ui-with-dash-p/) both cover adjacent versions of the workflow.
 
 ## My takeaway
 
