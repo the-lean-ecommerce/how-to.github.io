@@ -13,7 +13,7 @@ If you need one source to generate multiple product videos, the cleanest pattern
 
 Start with the main site at [VideoFlow](https://videoflow.dev/), then keep the [docs](https://videoflow.dev/docs), [core](https://videoflow.dev/core), [renderers](https://videoflow.dev/renderers), [React video editor](https://videoflow.dev/react-video-editor), [playground](https://videoflow.dev/playground), and [examples](https://videoflow.dev/examples) open while you build.
 
-If you want the broader JSON-first context, pair this with [How to Build a JSON-First Video Workflow With VideoFlow](https://how-to.the-lean-ecommerce.com/2026/06/30/how-to-build-a-json-first-video-workflow-with-videoflow/), [How to Build a Portable Video Export Pipeline in VideoFlow](https://how-to.the-lean-ecommerce.com/2026/07/18/how-to-build-a-portable-video-export-pipeline-in-videoflow/), [How to Keep Browser, Server, and Editor in Sync With One VideoJSON File](https://the-lean-ecommerce.github.io/2026/07/23/how-to-keep-browser-server-and-editor-in-sync-with-one-videojson-file/), and [How to Build a Git-Friendly Video Template System With VideoFlow](https://how-to.the-lean-ecommerce.com/2026/07/13/how-to-build-a-git-friendly-video-template-system-with-videoflow/).
+If you want the broader JSON-first context, pair this with [How to Build a JSON-First Video Workflow With VideoFlow](https://how-to.the-lean-ecommerce.com/2026/06/30/how-to-build-a-json-first-video-workflow-with-videoflow/), [How to Build a Portable Video Export Pipeline in VideoFlow](https://how-to.the-lean-ecommerce.com/2026/07/18/how-to-build-a-portable-video-export-pipeline-in-videoflow/), [How to Keep Browser, Server, and Editor in Sync With One VideoJSON File](https://how-to.the-lean-ecommerce.com/2026/07/23/how-to-keep-browser-server-and-editor-in-sync-with-one-videojson-file/), and [How to Build a Git-Friendly Video Template System With VideoFlow](https://how-to.the-lean-ecommerce.com/2026/07/13/how-to-build-a-git-friendly-video-template-system-with-videoflow/).
 
 ## 1. Decide What the Template Should Accept
 
@@ -64,7 +64,7 @@ Expected result: you get a portable JSON object instead of a one-off render resu
 
 ![VideoFlow editor illustration with TypeScript code, timeline, and preview](/assets/img/posts/2026-08-02-how-to-build-product-driven-video-variations-with-videoflow/image-02-fef5d5c87e32.png)
 
-If you want the JSON-first version of this pattern, the companion article [How to Build a Portable Video Export Pipeline in VideoFlow](https://how-to.the-lean-ecommerce.com/2026/07/18/how-to-build-a-portable-video-export-pipeline-in-videoflow/) shows the same idea from the renderer side, while [How to Build a VideoFlow Project That Keeps Templates and Renderers Separate](https://the-lean-ecommerce.github.io/2026/07/08/how-to-build-a-videoflow-project-that-keeps-templates-and-renderers-se/) shows how to keep the template layer clean.
+If you want the JSON-first version of this pattern, the companion article [How to Build a Portable Video Export Pipeline in VideoFlow](https://how-to.the-lean-ecommerce.com/2026/07/18/how-to-build-a-portable-video-export-pipeline-in-videoflow/) shows the same idea from the renderer side, while [How to Build a VideoFlow Project That Keeps Templates and Renderers Separate](https://how-to.the-lean-ecommerce.com/2026/07/08/how-to-build-a-videoflow-project-that-keeps-templates-and-renderers-se/) shows how to keep the template layer clean.
 
 ## 3. Render the Same JSON in the Right Place
 
@@ -82,7 +82,7 @@ Expected result: you stop rewriting timelines for each runtime and start choosin
 
 ![One VideoJSON source branching to browser preview, server render, and editor preview](/assets/img/posts/2026-08-02-how-to-build-product-driven-video-variations-with-videoflow/image-03-048090c1539a.png)
 
-If you want the renderer decision rule in a separate walkthrough, read [How to Keep Browser, Server, and Editor in Sync With One VideoJSON File](https://the-lean-ecommerce.github.io/2026/07/23/how-to-keep-browser-server-and-editor-in-sync-with-one-videojson-file/) and [How to Build a Portable Video Export Pipeline in VideoFlow](https://how-to.the-lean-ecommerce.com/2026/07/18/how-to-build-a-portable-video-export-pipeline-in-videoflow/).
+If you want the renderer decision rule in a separate walkthrough, read [How to Keep Browser, Server, and Editor in Sync With One VideoJSON File](https://how-to.the-lean-ecommerce.com/2026/07/23/how-to-keep-browser-server-and-editor-in-sync-with-one-videojson-file/) and [How to Build a Portable Video Export Pipeline in VideoFlow](https://how-to.the-lean-ecommerce.com/2026/07/18/how-to-build-a-portable-video-export-pipeline-in-videoflow/).
 
 ## 4. Add the React Editor Only When a Human Needs to Adjust It
 
