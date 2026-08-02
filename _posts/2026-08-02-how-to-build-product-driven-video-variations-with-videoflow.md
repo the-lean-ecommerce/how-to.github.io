@@ -64,7 +64,7 @@ Expected result: you get a portable JSON object instead of a one-off render resu
 
 ![VideoFlow editor illustration with TypeScript code, timeline, and preview](/assets/img/posts/2026-08-02-how-to-build-product-driven-video-variations-with-videoflow/image-02-fef5d5c87e32.png)
 
-If you want the JSON-first version of this pattern, the companion article [How to Build a Portable Video Export Pipeline in VideoFlow](https://how-to.the-lean-ecommerce.com/2026/07/18/how-to-build-a-portable-video-export-pipeline-in-videoflow/) shows the same idea from the renderer side, while [How to Build a VideoFlow Project That Keeps Templates and Renderers Separate](https://the-lean-ecommerce.github.io/2026/07/08/how-to-build-a-videoflow-project-that-keeps-templates-and-renderers-se.md) shows how to keep the template layer clean.
+If you want the JSON-first version of this pattern, the companion article [How to Build a Portable Video Export Pipeline in VideoFlow](https://how-to.the-lean-ecommerce.com/2026/07/18/how-to-build-a-portable-video-export-pipeline-in-videoflow/) shows the same idea from the renderer side, while [How to Build a VideoFlow Project That Keeps Templates and Renderers Separate](https://the-lean-ecommerce.github.io/2026/07/08/how-to-build-a-videoflow-project-that-keeps-templates-and-renderers-se/) shows how to keep the template layer clean.
 
 ## 3. Render the Same JSON in the Right Place
 
