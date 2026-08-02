@@ -2,7 +2,7 @@
 layout: post
 title: "How to Build Product-Driven Video Variations With VideoFlow"
 description: "Turn structured product data into repeatable VideoFlow templates that render in the browser, on a server, and in a React editor."
-date: 2026-08-02 12:00:00 +0000
+date: 2026-08-02 03:00:00 +0000
 categories: [how-to]
 tags: [video, javascript, typescript, react, automation, json-to-video, programmatic-video]
 canonical_url: ""
