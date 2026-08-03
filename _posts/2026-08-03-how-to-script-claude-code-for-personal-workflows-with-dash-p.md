@@ -74,8 +74,7 @@ dash-p is most useful when the output is immediately useful to another command. 
 If the next step is another command, keep the prompt explicit and the result narrow. For example:
 
     summary=$(dash-p "summarize the staged changes in five bullets")
-    printf '%s
-' "$summary" > /tmp/dash-p-summary.txt
+    echo "$summary" > /tmp/dash-p-summary.txt
 
 Expected result: the next script can consume the text without parsing a long transcript.
 
