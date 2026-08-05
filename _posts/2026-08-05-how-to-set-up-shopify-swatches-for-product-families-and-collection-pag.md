@@ -2,7 +2,7 @@
 layout: post
 title: "How to Set Up Shopify Swatches for Product Families and Collection Pages"
 description: "Set up Shopify swatches for product families, variants, linked products, and collection pages without theme code."
-date: 2026-08-05 12:00:00 +0000
+date: 2026-08-05 00:00:00 +0000
 categories: [how-to]
 tags: [shopify, swatches, variants, linked-products, collections, ecommerce]
 canonical_url: ""
