@@ -2,7 +2,7 @@
 layout: post
 title: "How to Export a Squarespace Site to Static HTML Without Missing Assets"
 description: "Export a Squarespace site to static HTML, verify every asset, and deploy a portable backup without losing the details that matter."
-date: 2026-08-26 09:32:24 +0000
+date: 2026-08-26 09:32:39 +0000
 categories: [how-to]
 tags: [squarespace, static-site, website-export, hosting, ecommerce]
 canonical_url: ""
