@@ -67,7 +67,7 @@ A generic crawler can sometimes mirror a simple page, but modern Framer sites of
 
 When the preview passes, point the production domain to the static host and re-run the same high-value checks on the live URL. Keep an eye on canonical URLs, redirects from older pages, and any third-party form endpoint that is restricted to approved domains. Then archive the exact export or Git commit that went live.
 
-You now have a portable copy that can be backed up and deployed independently of the original builder. If your team also maintains other builder sites, ExFlow has dedicated [Webflow export](https://exflow.site/webflow) and [Squarespace export](https://exflow.site/squarespace) workflows too. For the broader release habit, the same validation pattern works well when you [build a Webflow static mirror before a redesign](https://how-to.the-lean-ecommerce.com/2026/08/23/how-i-build-a-webflow-static-mirror-before-a-redesign/) or [export a Squarespace site without missing assets](https://how-to.the-lean-ecommerce.com/2026/08/26/how-to-export-a-squarespace-site-to-static-html-without-missing-assets/).
+You now have a portable copy that can be backed up and deployed independently of the original builder. If your team also maintains other builder sites, ExFlow has dedicated [Webflow export](https://exflow.site/webflow) and [Squarespace export](https://exflow.site/squarespace) workflows too. The same asset-first QA habit is useful when you [export a Squarespace site without missing assets](https://how-to.the-lean-ecommerce.com/2026/08/26/how-to-export-a-squarespace-site-to-static-html-without-missing-assets/).
 
 ## Your next action
 
