@@ -2,7 +2,7 @@
 layout: post
 title: "How to Move a Framer Site to Static Hosting Without Breaking Animations"
 description: "Export a Framer site to static files, deploy it on your own host, and run a focused QA pass for animations, assets, and links."
-date: 2026-08-27 01:34:45 +0000
+date: 2026-08-27 01:35:33 +0000
 categories: [how-to]
 tags: [framer, static-hosting, website-export, deployment]
 canonical_url: ""
