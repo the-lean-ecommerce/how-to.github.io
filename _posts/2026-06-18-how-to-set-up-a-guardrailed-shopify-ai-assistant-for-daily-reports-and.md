@@ -31,9 +31,9 @@ When this step is done, you should be able to say exactly when the assistant suc
 
 Clawly lets you create an AI Agent for Shopify by describing what the assistant should do. Keep that instruction short and concrete.
 
-> Read the store data I ask for.  
-> Summarize the changes that matter.  
-> Only modify records when I explicitly allow it.  
+> Read the store data I ask for.
+> Summarize the changes that matter.
+> Only modify records when I explicitly allow it.
 > If the task needs a decision, notify me instead of guessing.
 
 That wording gives the agent a job boundary. It also makes later review easier because the assistant is not improvising.
