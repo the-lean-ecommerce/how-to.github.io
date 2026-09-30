@@ -35,7 +35,7 @@ Expected result: the export contains page files plus folders for styles, scripts
 
 Create a folder that makes the state obvious, such as `framer-snapshots/2026-09-30-before-homepage-redesign/`. Unzip the export there, then add a short `README.md` with the source URL, export date, known exceptions, and the acceptance list from step 1.
 
-For a team workflow, sync the export to Git from ExFlow or commit it to an existing repository. A dated commit gives reviewers a precise reference and lets you compare a redesign branch against the snapshot. If Git is not part of your stack, keep the ZIP in a controlled archive and deploy the expanded files to a staging host.
+For a team workflow, sync the export to Git from ExFlow or commit it to an existing repository. A dated commit gives reviewers a precise reference and lets you compare a redesign branch against the snapshot. If Git is not part of your stack, keep the ZIP in a controlled archive and deploy the expanded files to a staging host. If GitHub Pages is your staging destination, follow the deployment steps in [How to Export a Framer Site to GitHub Pages](https://how-to.the-lean-ecommerce.com/2026/09/28/how-to-export-a-framer-site-to-github-pages/).
 
 Expected result: someone else can identify which live version the files represent without asking the original exporter.
 
@@ -59,7 +59,7 @@ Expected result: the staging URL meets your stated visual and navigation checks,
 
 Keep the snapshot separate from the redesign branch. If your production process deploys from Git, use a clearly named tag or branch such as `snapshot/pre-redesign-2026-09-30`. If you deploy to object storage or FTP, preserve the archive and record the destination path.
 
-This turns rollback into an intentional switch: redeploy the verified snapshot, update the required DNS or release setting, and retest the priority URLs. It is much safer than rebuilding a previous Framer page from memory after a launch issue.
+This turns rollback into an intentional switch: redeploy the verified snapshot, update the required DNS or release setting, and retest the priority URLs. It is much safer than rebuilding a previous Framer page from memory after a launch issue. The same separation between a working builder and a portable output is useful when you [export a Webflow CMS site to static HTML](https://how-to.the-lean-ecommerce.com/2026/09/28/how-to-export-a-webflow-cms-site-to-static-html/) or [deploy a Squarespace export to GitHub Pages](https://how-to.the-lean-ecommerce.com/2026/09/29/how-to-deploy-a-squarespace-export-to-github-pages/).
 
 ![Aurora version timeline for static website deployment and rollback](/assets/img/posts/2026-09-30-how-to-create-a-framer-staging-snapshot-before-a-redesign/image-03-234efb3460eb.webp)
 
@@ -75,6 +75,6 @@ This turns rollback into an intentional switch: redeploy the verified snapshot, 
 
 ## Keep the redesign portable
 
-Once this Framer snapshot passes review, you can safely experiment with a redesign knowing there is a working reference and a recoverable deployment. ExFlow can also export [Webflow sites](https://exflow.site/webflow) and [Squarespace sites](https://exflow.site/squarespace) when the rest of your portfolio needs the same treatment.
+Once this Framer snapshot passes review, you can safely experiment with a redesign knowing there is a working reference and a recoverable deployment. For a broader pre-handoff checklist, see [Squarespace Export Checklist for Static Hosting and Client Handoffs](https://tools-and-how-tos.github.io/2026/09/30/squarespace-export-checklist-for-static-hosting-and-client-handoffs/). ExFlow can also export [Webflow sites](https://exflow.site/webflow) and [Squarespace sites](https://exflow.site/squarespace) when the rest of your portfolio needs the same treatment.
 
 Your next action: run one export of the live Framer site, test it on a staging URL, and save the verified result with a date before changing a single section.
