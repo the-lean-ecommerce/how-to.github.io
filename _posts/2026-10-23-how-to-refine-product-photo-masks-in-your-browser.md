@@ -2,7 +2,7 @@
 layout: post
 title: "How to Refine Product Photo Masks in Your Browser"
 description: "Use a browser-based, local-first editing workflow to clean product-photo masks, protect details, and export honest ecommerce images."
-date: 2026-10-23 10:30:30 +0000
+date: 2026-10-23 10:35:50 +0000
 categories: [how-to]
 tags: [ecommerce, product-photography, image-editing, photoshop-alternative]
 canonical_url: ""
@@ -43,7 +43,7 @@ Keep adjustments non-destructive so you can revisit them after placing a new bac
 
 Place the new background below the masked product. Start with a plain neutral color before trying a scene, texture, or gradient. A neutral test makes it easier to spot rough edges and helps you judge whether the product still has believable contact with the surface. Add a subtle shadow only if it matches the original object's position and shape.
 
-For listing images, avoid backgrounds that disguise product dimensions, hide accessories, or make a color look materially different. If the image is headed to Shopify, it is also worth checking the rendered result in the same kind of collection context where shoppers will see it; [a simple collection image workflow](https://the-lean-ecommerce.github.io/2026/10/18/how-to-use-ai-product-photos-on-shopify.html) explains why consistency matters.
+For listing images, avoid backgrounds that disguise product dimensions, hide accessories, or make a color look materially different. If the image is headed to Shopify, it is also worth checking the rendered result in the same kind of collection context where shoppers will see it; [this product-photo metadata check](https://the-lean-ecommerce.gitlab.io/2026/10/22/i-check-product-photo-metadata-before-a-shopify-asset-leaves-my-laptop/) is a helpful companion.
 
 **Expected result:** the background supports the product instead of competing with it, and the listing remains truthful.
 
