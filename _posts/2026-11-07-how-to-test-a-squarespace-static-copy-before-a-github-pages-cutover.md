@@ -9,8 +9,6 @@ canonical_url: ""
 image: "/assets/img/posts/2026-11-07-how-to-test-a-squarespace-static-copy-before-a-github-pages-cutover/cover-8b38bfb75f75.webp"
 ---
 
-# How to Test a Squarespace Static Copy Before a GitHub Pages Cutover
-
 You can move the public, page-based part of a Squarespace campaign site to GitHub Pages without rebuilding its design—but only after you separate static pages from features that require a server. Export the live site, give forms and other server-owned features a deliberate destination, then test the export on a temporary Pages URL before you change DNS.
 
 This guide assumes you own the Squarespace site, have a GitHub repository, and can update DNS when the test is complete. It is a safer next step after assembling a [Squarespace rollback kit](https://how-to.the-lean-ecommerce.com/2026/11/07/how-to-build-a-squarespace-rollback-kit-before-a-homepage-launch/): the rollback copy is your recovery point; this process proves the replacement can serve visitors.
