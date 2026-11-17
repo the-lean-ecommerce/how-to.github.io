@@ -95,7 +95,8 @@ Your page can create the worker once and send a selected file’s bytes:
 ```js
 const worker = new Worker(new URL("./raw-worker.js", import.meta.url), { type: "module" });
 
-worker.postMessage({ buffer: await file.arrayBuffer() }, [buffer]);
+const buffer = await file.arrayBuffer();
+worker.postMessage({ buffer }, [buffer]);
 worker.onmessage = ({ data }) => {
   if (!data.ok) return showFallback(data.message);
   const pixels = new Uint8ClampedArray(data.pixels);
